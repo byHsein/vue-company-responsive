@@ -1,0 +1,37 @@
+.carousel__pagination-button{
+    display: flex;
+    margin:0 16px;
+    margin-bottom: 40px;
+    width:8px;
+    height: 8px;
+    border-radius: 100% !important;
+    background-color:  #FFE4E1!important;
+}
+.carousel__pagination-button::after{
+    opacity: 0;
+}
+
+.carousel__pagination-button--active {
+    background-color:#F07566 !important;
+    width: 16px;
+    height: 16px;
+    margin-top: -3px;
+}
+  
+.carousel__next{
+    overflow:  hidden !important;
+}
+.carousel__slide{
+    height:  770px;
+    gap: 30px;
+    margin-top:-100px;
+    
+}
+.carousel__icon{
+    opacity: 0;
+}
+@media screen and (min-width: 1024px){
+    .carousel__slide{
+        height:680px;
+    }
+}
